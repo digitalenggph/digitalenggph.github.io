@@ -53,6 +53,31 @@ hr {
   border-right-color: green;    /* color only when active */
 }
 
+.anchor {
+     scroll-margin-top: 100px;
+}
+
+.inline-icon {
+    width: 0.1em;
+    height: auto;
+    display: inline;
+    margin-right: 40px;
+    vertical-align: center;
+}
+
+
+.frost {
+  backdrop-filter: blur(10px);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: #198754 !important; /* Bootstrap 'success' green */
+  color: white !important;
+  padding: 0.25rem 0.75rem !important;    /* smaller highlight area */
+  border-radius: 0.5rem !important;       /* round corners */
+}
+
 .sticky-header {
   position: sticky;
   top: 0;
@@ -65,16 +90,4 @@ hr {
   max-width: 30px;
   border: 0px;
   padding: 0px;
-}
-
-.frost {
-  backdrop-filter: blur(10px);
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
-  background-color: #198754 !important; /* Bootstrap 'success' green */
-  color: white !important;
-  padding: 0.25rem 0.75rem !important;    /* smaller highlight area */
-  border-radius: 0.5rem !important;       /* round corners */
 }
